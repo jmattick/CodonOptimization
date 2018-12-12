@@ -9,6 +9,9 @@ DNA sequences go through either one or two passes depending on the input sequenc
 ![Program Flow](https://jmatty16.github.io/CodonOptimization/img/CodonOptimizationdiagram.png)
 
 # Results
+Program outputs the original sequence, the first pass optimized sequence, and the second pass optimized sequence. When aligned in a software like [JalView](http://www.jalview.org/) the differences in DNA sequence can be seen but the protein sequences are identical.
+
+![Sequence Alignment](https://jmatty16.github.io/CodonOptimization/img/alignment.png)
 
 Since the first pass optimization increases frequency of codons, when the second pass opimization lowers frequency to reduce GC content, the final sequence can have a higher frequency than the original. 
 
