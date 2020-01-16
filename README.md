@@ -6,16 +6,16 @@ DNA sequences go through either one or two passes depending on the input sequenc
 
 # Program Flowchart
 
-![Program Flow](https://jmatty16.github.io/CodonOptimization/img/CodonOptimizationdiagram.png)
+![Program Flow](https://jmattick.github.io/CodonOptimization/img/CodonOptimizationdiagram.png)
 
 # Results
 Program outputs the original sequence, the first pass optimized sequence, and the second pass optimized sequence. When aligned in a software like [JalView](http://www.jalview.org/) the differences in DNA sequence can be seen but the protein sequences are identical.
 
-![Sequence Alignment](https://jmatty16.github.io/CodonOptimization/img/alignment.png)
+![Sequence Alignment](https://jmattick.github.io/CodonOptimization/img/alignment.png)
 
 Since the first pass optimization increases frequency of codons, when the second pass opimization lowers frequency to reduce GC content, the final sequence can have a higher frequency than the original. 
 
-![Frequency Comparison](https://jmatty16.github.io/CodonOptimization/img/frequencygraph.png)
+![Frequency Comparison](https://jmattick.github.io/CodonOptimization/img/frequencygraph.png)
 
 # Usage
 
@@ -24,4 +24,4 @@ Since the first pass optimization increases frequency of codons, when the second
 - User can set GC% but some percentages may be impossible for the sequence. In that case, program will output a warning message. 
 
 
-See docs: https://jmatty16.github.io/CodonOptimization/doc/
+See docs: https://jmattick.github.io/CodonOptimization/doc/
